@@ -5,13 +5,13 @@
 }
 /*propiedades del padre contenedor, como en flexbox, en grid la caracteristica se aplica al padre*/
 .padre{
-    height: 800px;
+    height: 80vh;
     display: grid;
     /*propiedades de grid (no vienen por defecto)
     propiedad para filas y propiedad para columnas
     */
     grid-template-columns: 1fr 1fr 3fr 1fr ;
-    grid-template-rows: 20% 60% 20% ;
+    grid-template-rows: 20% 80%;
 
     column-gap: 10px;
     row-gap: 10px;
@@ -34,6 +34,22 @@
 
 .hijoCuatro{
     background-color: yellow;
+}
+
+.parrafo{
+    text-align: center;
+    background-color: beige;
+    height: fit-content;
+    margin-top: 20px;
+    max-height: 20vh;
+    width: 100%;
+
+}
+.destacado{
+    font-weight: bold;
+    font-size: larger;
+    color: blueviolet;
+    background-color: rgb(180, 180, 180);
 }
 
 /*ejemplo 2*/
